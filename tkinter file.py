@@ -3,6 +3,7 @@ from front import Number
 
 front = Number()
 
+#it is a function which is used for the purpose of getting values in the function first_one and second_one
 def major():
     peeps = front.numberstodirection(int(v.get()), 1, int(e2.get()), int(e3.get()), int(e4.get()), int(e5.get()))
     return peeps
