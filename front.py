@@ -2,7 +2,7 @@ import math
 import numpy
 
 class Number:
-        def numberstodirection(self,direct,elf,value_of_a,value_of_b,value_of_c,angle):
+        def numberstodirection(self,direct,elf,value_of_a,value_of_b,value_of_c,angle):#these are the input values
         # instead of using switch case,if case is used in python
             self.angle_1 = int(angle)
             if direct == 3:
